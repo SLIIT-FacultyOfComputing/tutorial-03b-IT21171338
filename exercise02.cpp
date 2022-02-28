@@ -17,7 +17,7 @@ int main() {
     cout << "Enter Box 1 Length : ";
     cin >> box1Length;
     
-     cout << "Enter Box 2 Height : ";
+     cout << "\nEnter Box 2 Height : ";
     cin >> box2Height;
     cout << "Enter Box 2 Width : ";
     cin >> box2Width;
@@ -27,7 +27,7 @@ int main() {
     totalVolume = volume(box1Height, box1Width, box1Length)
              + volume(box2Height, box2Width, box2Length);
              
-    cout << "Volume of Boxe is " << totalVolume << endl;
+    cout << "\nVolume of Boxe is " << totalVolume << endl;
     
     return 0;
 }
